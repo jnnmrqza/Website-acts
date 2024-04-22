@@ -1,0 +1,82 @@
+body{
+    background-image: url(biniverse.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(242, 151, 151);
+    padding: 20px 20px;
+}
+#first-div{
+    text-align: center;
+}
+h1{
+    color: rgb(253, 195, 230);
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: solid 5px rgb(246, 142, 142);
+}
+h2 a{
+    color: rgb(255, 199, 199);
+    text-decoration: none;
+    font-family: Arial;
+}
+h2:hover a{
+    color: black;
+    background-color: pink;
+    padding: 5px 10px;
+    border: 2px solid rgb(247, 107, 107);
+    border-radius: 8px;
+    
+}
+.edu{
+    margin-bottom: 10px;
+}
+.hori-line{
+    width: 100%;
+    border: 2px solid rgb(251, 100, 100);
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: arial;
+    color: antiquewhite;
+    text-indent: 2em;
+    text-align: justify;
+}
+#sec-div h3, h4{
+    background-color: pink;
+    font-family: Arial;
+}
+
+table{
+    width: 100%;
+    font-family: arial;
+    border-collapse: collapse;
+
+}
+td{
+    background-color: antiquewhite;
+}
+th{
+    text-align: center;
+    background-color: pink;
+}
+th, td{
+    padding: 8px;
+}
+table,th, td{
+    border: 1px solid rgb(189, 188, 188);
+}
+ul{
+    list-style: square;
+}
+ul, ol{
+    font-family: arial;
+    color: antiquewhite;
+}
